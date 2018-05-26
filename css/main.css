@@ -1,0 +1,254 @@
+
+/* Specification */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.icon-text-block > p{
+    display: inline-block;
+    font-size: 13px;
+}
+.small-icon{
+    
+    display: inline-block;
+}
+.container-fluid{
+    padding: 0;
+}
+
+/* Header */
+header{
+    color: white;
+}
+.container-fluid-header{
+    padding: 0;
+    height: 219px;
+}
+.header-slogan{
+    background-color:#003580;
+    height: 70px;
+    min-width: 1140px;  
+}
+.slogan{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1140px;
+}
+.slogan-block {
+    height: 100%;
+    padding:0;
+}  
+.contact-us-block{
+    padding: 0;
+    height: 100%
+}
+.logo{
+    height: 50px;
+    width: 235px;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: middle;
+}
+.slogan-block > h1{
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    display: inline-block
+}
+.contact-us-button{
+    width: 250px;
+    height: 38px;
+    background-color: transparent;
+    border: 1px dashed white;
+    border-radius: 7px;
+    color: white;
+}
+.header-bottom-background{
+    width: 100%;
+    height: 150px;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-left: auto;
+    min-width: 1140px;
+}
+
+/* Section */
+
+/* Sidebar */
+.sidebar{
+    padding: 0;
+    height: 675px;
+    margin-top: 28px;
+    background-color: #febb02;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.sidebar-list-header{
+    color:white;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    background-color: #fea802;
+}
+.list-header-icon{
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/control-icon.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 13px;
+}
+.sidebar-list-header > h1{
+    font-size: 20px;
+    display: inline-block;
+}
+.sidebar-list-conteiner {
+    overflow: hidden;
+    /* height: 500px; */
+}
+.list-items-block{
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.list-input{
+    max-width: 240px;
+}
+.item-name{
+    font-size: 15px;
+}
+.custom-select {
+    font-size: 14px;
+    max-width: 240px;
+    height: 41px;
+    background: white url('../img/down-arrow-icon.png') no-repeat right .75rem center;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    color:gray;
+}
+.search-button{
+    height: 41px;
+    margin: 20px auto 0;
+    padding-left: 47px;
+    padding-right: 47px;
+    display: block;
+}
+.content-item-block{
+    border: 1px solid grey;
+    margin-top: 26px;
+    margin-left: 7px;
+}
+.card-block{
+    border: none;
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+.card-image-top{
+    width: 234px;
+}
+.card-buttons{
+    color: white;
+    margin-top: 16px;
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+}
+.card-body{
+    padding: 0;
+}
+.content-info-conteiner{
+    padding: 0;
+}
+.content-header{
+    font-size: 24px;
+    color: #003580;
+    padding-top: 24px;
+}
+.place{
+    padding-top: 7px;
+}
+.description > p{
+    font-size: 15px;
+    color: gray;
+}
+.label-block{
+    padding: 0;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 115px;
+    border: 2px dashed #003580;
+}
+.label-conteiner{
+    margin-top: 16px;
+}
+.label-header{
+    font-size: 15px;
+    font-style: italic;
+    color: #003580
+}
+.label-description{
+    padding-left: 10px;
+}
+.label-price{
+    padding: 0;
+}
+.price-button > p{
+    color:forestgreen;
+    padding: 0;
+    display: inline;
+}
+/* Pagination */
+
+.pagination-block{
+    padding-top: 75px;
+    padding-bottom: 85px;
+}
+.previous-btn{
+    border-style: dotted;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 38px;
+}
+.next-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 38px;
+}
+.page-item.active .page-link{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #003580;
+    color: gray;
+}
+.page-link{
+    color: gray;
+    border: none;
+}
+.underline{
+    border-bottom: 1px dashed gray;
+    display: inherit;
+    margin-top: 5px;
+}
+
+/* Footer */
+.footer-conteiner{
+    background-color: #003580;
+    height: 60px;
+}
+.footer-block{
+    border-top: 2px dashed gray;
+    min-width: 1140px;
+    margin-top: 9px;
+    padding-top: 14px;
+}
+.footer-link{
+    padding: 0;
+}
+.footer-link > a{
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
